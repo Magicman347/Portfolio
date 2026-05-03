@@ -12,6 +12,7 @@ canvas {
       margin: 0 auto;
       display: block;
 }
+/*Id's and classes go here*/
 .gallery .preview{
     width: 100%;
     height: auto;
@@ -100,7 +101,7 @@ canvas {
 .fa-links:hover{
     color: #9999ff;
 }
-
+/*End of Id and class section*/
 footer .fa{
     color:#cccccc;
     font-size: 20px;
