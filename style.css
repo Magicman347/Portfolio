@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=UnifrakturCook:wght@700&display=swap');
+header{
+    text-align: center;
+    background: #2db4fd;
+    background: linear-gradient(197deg,rgba(45, 180, 253, 1) 23%, rgba(216, 133, 255, 1) 100%);
+}
+canvas {
+      border: 4px solid #2f98f5;
+      background-image: url(images/tommyvideo-abstract-1779625.png);
+      border-radius: 8px;
+      margin: 0 auto;
+      display: block;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.myButton{
+    background: #3df500;
+    background: radial-gradient(circle,rgba(61, 245, 0, 1) 42%, rgba(0, 0, 0, 1) 81%);
+    height: 75px;
+    width: 150px;
+    font-size: 17px;
+    font-wieght: bold;
+}
+.myButton2{
+    background: #f50000;
+    background: radial-gradient(circle,rgba(245, 0, 0, 1) 42%, rgba(0, 0, 0, 1) 81%);
+    height: 75px;
+    width: 150px;
+    font-size: 17px;
+    font-wight: bold;
+    
+}
+.logo{
+    max-width: 275px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.float-right{
+    float: right;
+    max-width: 50%;
+    height: auto;
+    margin-left: 30px;
+}
+#home-hero{
+    background-image: url(images/macey11-rainbow-8221835.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: top-center;
+    background-repeat: no-repeat;
+    display: block;
+}
+#home-hero, h1{
+    margin: 0;
+    text-align: center;
+    padding:10px;
+    color: #638ef7;
+    font-size: 1.5em;
+    text-shadow: 3px 3px 2px black;
+}
+.main-logo{
+    display: block;
+    margin: 0 auto;
+
+}
+.fa{
+    color: #4da6ff;
+    font-size: 60px;
+}
+
+.fa-links{
+    color: #4da6ff;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.fa-links:hover{
+    color: #9999ff;
+}
+
+footer .fa{
+    color:#cccccc;
+    font-size: 20px;
+}
+footer .fa:hover{
+    color: lightblue;
+}
+a:link{
+    color: lightskyblue;
+}
+a:visited{
+    color: lightblue;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: blueviolet;
+}
+h2{
+    color: blue;
+    background-color: ;
+    border-bottom: 3px solid blue;
+    text-align: ;
+    font-size: 2em;
+    font-family: "UnifrakturCook", cursive;
+}
+h1{
+    color: #9422f2;
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+}
+nav{
+    font-weight: bold;
+    background-color: #638ef7;
+    text-align: center;
+    line-height: 200%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-size: 25px;
+    height: 75px;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0
+}
+nav li{
+  display: inline;
+  text-decoration: none;
+  padding-right: 20px;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+  color: black;
+}
+nav a:visited{
+  color: black;
+}
+nav a:hover{
+  color: #4505f5;
+}
+nav a:active{
+  color: blue;
+}
+main{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+
+}
+body{
+    background-color: #404040;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+}
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 4px solid black;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+
+}
+th{
+  background-color: #F8AE3B;
+  color: white; 
+  border-bottom: 4px solid black;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: #121212;
+}
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+input, textarea{
+  margin-bottom: 1em;
+  display: block; 
+}
+textarea{
+  background-color: #eeeeee;
+  border: 3px solid black; 
+}
+input[type=text],
+input[type=email],
+input[type=tel]{
+  background-color: #eeeeee;
+  border: 3px solid black;
+}
+input[type=submit]{
+ background-color: blue;
+ color: white;
+ border:4px solod black;
+ display: block;
+ height: 55px;
+ width: 95px;
+ font-size: 18px;
+}
+footer{
+     border-top: black 5px solid;
+     text-align: center;
+     background: #435ee6;
+     background: linear-gradient(5deg, rgba(67, 94, 230, 1) 42%, rgba(176, 32, 164, 1) 81%);
+     clear: both;
+     font-size: 20px;
+     color: #1f1f2e;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+h1{
+        font-size: 4em;
+ }
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 1.8em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5em;
+    }
+}
